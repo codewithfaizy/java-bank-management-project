@@ -6,10 +6,11 @@ public class conn {
     Statement s;
     public conn(){
         try {
-            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","faizy786@");
+            c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","your pass");
             s = c.createStatement();
         } catch (Exception e){
             System.out.println(e);
         }
     }
 }
+
